@@ -1,6 +1,6 @@
 {
   "name": "gargula",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "good package",
   "main": "index.js",
   "scripts": {
