@@ -1,7 +1,7 @@
 {
   "name": "gargula",
-  "version": "1.0.1",
-  "description": "good package",
+  "version": "1.0.2",
+  "description": "package for printing a gargoyle",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
