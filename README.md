@@ -1,6 +1,8 @@
 # :dragon: gargula :dragon:
 
-A node package for printing the infamous `gargoyle` or `gargula` in portuguese
+A Javascript package for printing the infamous `gargoyle` or `gargula` in portuguese.
+
+**Note:** This package can be used both on `Node.js` and on the Browser.
 
 ## Installation
 
