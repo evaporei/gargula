@@ -2,14 +2,19 @@
   "name": "gargula",
   "version": "1.0.3",
   "description": "package for printing a gargoyle",
-  "main": "index.js",
+  "main": "build/gargula.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/otaviopace/gargula.git"
   },
   "author": "Otávio Pace",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "raw-loader": "^0.5.1",
+    "webpack-cli": "^3.1.2"
+  }
 }
